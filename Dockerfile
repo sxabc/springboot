@@ -1,5 +1,5 @@
 # 使用官方 OpenJDK 17 运行时基础镜像（可以根据你的 JDK 版本调整）
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:17-jre-jammy
 
 # 维护者信息（可选）
 LABEL maintainer="xiaozp@example.com"
